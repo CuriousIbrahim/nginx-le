@@ -1,8 +1,7 @@
 version: "2"
 services:
   nginx:
-    build: .
-    image: umputun/nginx-le:latest
+    image: curiousibrahim/nginx-le:latest
     hostname: nginx
     restart: always
     container_name: nginx
